@@ -26,10 +26,6 @@ public class Dates {
         }
     }
 
-    //getter för att få ut och komma åt veckan.
-    public ArrayList <LocalDate> getWeek (){
-        return week;
-    }
 
     //gå igenom min week array och plocka sedan ut dag + månad och spara i separat array.
     public void getDayMonth (){
@@ -39,13 +35,4 @@ public class Dates {
         }
     }
 
-    //getter för att komma åt dagen.
-    public ArrayList <String> getDay(){
-        return day;
-    }
-
-    //getter för att komma åt månaden.
-    public ArrayList <String> getMonth(){
-        return month;
-    }
 }
